@@ -1,11 +1,6 @@
 import React from "react";
-import {Button} from "@material-ui/core";
-import Popper from "@material-ui/core/Popper";
-import Grow from "@material-ui/core/Grow";
-import Paper from "@material-ui/core/Paper";
-import ClickAwayListener from "@material-ui/core/ClickAwayListener";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import {makeStyles} from "@material-ui/core/styles";
+
+import {Button, ButtonGroup, Popper, Grow, Paper, ClickAwayListener} from "@material-ui/core";
 
 export function LabServicesDropDown() {
     const [open, setOpen] = React.useState(false);

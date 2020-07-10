@@ -1,11 +1,6 @@
 import React from 'react';
-import {Button} from '@material-ui/core';
-import Dialog from '@material-ui/core/Dialog';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import TextField from '@material-ui/core/TextField';
-import DialogActions from '@material-ui/core/DialogActions';
+
+import {Button, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, TextField} from '@material-ui/core';
 
 export function SupplyOrderFormDialog() {
     const [open, setOpen] = React.useState(false);
